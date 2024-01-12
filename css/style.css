@@ -111,3 +111,103 @@ body {
 .about__text-item {
     width: 480px;
 }
+
+.features {
+    background-color: #F8F8F8;
+}
+
+.features-wrap {
+    padding-top: 200px;
+    width: 1200px;
+    margin: auto;
+}
+
+.features__title {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #01353E;
+    text-align: center;
+}
+
+.features__list {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.features__item {
+    width: 350px;
+    position: relative;
+    
+}
+
+.features__item-logo {
+    display: inline-block;
+}
+
+.features__item-title {
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #242121;
+}
+
+.features__item-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #242121;
+}
+
+.features__plan {
+    margin-top: 100px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.features__plan-waves {
+    
+}
+
+.features__wave-logo {
+    display: inline-block;
+}
+
+.features__plan-wave {
+    margin-top: 20px;
+}
+
+.features__plan-wave:first-child {
+    margin-top: 0px;
+}
+
+.features__wave-number {
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #242121;
+    margin-left: 10px;
+}
+
+.features__wave-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #242121;
+}
+
+.features__plan-text {
+    width: 600px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #242121;
+}
