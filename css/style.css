@@ -211,3 +211,102 @@ body {
     font-size: 14px;
     color: #242121;
 }
+
+.benefit {
+    position: relative;
+}
+
+.benefit-wrap {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.benefit__text {
+    max-width: 510px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 350px;
+}
+
+.benefit__title {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #01353E;
+}
+
+.benefit__sub {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #242121;
+    margin-top: 100px;
+}
+
+.benefit__img {
+    position: absolute;
+    right: 0;
+}
+
+.galery {
+    
+}
+
+.galery-wrap {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.galery__title {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #01353E;
+    text-align: center;
+}
+
+.galery__nav {
+    margin-top: 150px;
+}
+
+.galery__nav-list {
+    padding-left: 0;
+}
+
+.galery__nav-item {
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.galery__nav-item:first-child {
+    padding-left: 0;
+}
+
+.galery__nav-link {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #242121;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.galery__nav-link:hover {
+    color: #00B2A0;
+}
+
+.galery__images {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galery__img {
+    padding-top: 20px;
+    padding-right: 20px;
+}
